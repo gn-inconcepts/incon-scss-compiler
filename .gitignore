@@ -42,6 +42,12 @@ Thumbs.db
 tests/coverage/
 phpunit.xml
 .phpunit.result.cache
+test-*.php
+*-test.php
+*-debug.php
+debug.php
+ajax-compile*.php
+direct-test.php
 
 # Build
 dist/
