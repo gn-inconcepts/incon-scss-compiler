@@ -23,7 +23,7 @@ class Incon_SCSS_GitHub_Updater {
         $this->plugin_slug = plugin_basename($this->plugin_file);
         
         $defaults = array(
-            'github_username' => 'incon',
+            'github_username' => 'gn-inconcepts',
             'github_repo' => 'incon-scss-compiler',
             'github_token' => '',
         );

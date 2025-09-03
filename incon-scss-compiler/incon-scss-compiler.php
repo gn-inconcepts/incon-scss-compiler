@@ -160,7 +160,7 @@ class InconSCSSCompiler {
             'max_execution_time' => 60,
             'memory_limit' => '256M',
             'update_source' => 'github',
-            'github_username' => 'incon',
+            'github_username' => 'gn-inconcepts',
             'github_repo' => 'incon-scss-compiler',
             'update_server_url' => '',
             'license_key' => ''
@@ -178,7 +178,7 @@ class InconSCSSCompiler {
                 require_once INCON_SCSS_PLUGIN_DIR . 'includes/class-github-updater.php';
                 
                 $config = array(
-                    'github_username' => get_option('incon_scss_github_username', 'incon'),
+                    'github_username' => get_option('incon_scss_github_username', 'gn-inconcepts'),
                     'github_repo' => get_option('incon_scss_github_repo', 'incon-scss-compiler'),
                     'github_token' => get_option('incon_scss_github_token', ''),
                 );

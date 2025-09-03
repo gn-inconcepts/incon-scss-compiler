@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) {
 }
 
 $update_source = get_option('incon_scss_update_source', 'github');
-$github_username = get_option('incon_scss_github_username', 'incon');
+$github_username = get_option('incon_scss_github_username', 'gn-inconcepts');
 $github_repo = get_option('incon_scss_github_repo', 'incon-scss-compiler');
 $github_token = get_option('incon_scss_github_token', '');
 $update_server_url = get_option('incon_scss_update_server_url', '');
